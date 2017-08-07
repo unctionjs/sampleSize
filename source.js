@@ -1,3 +1,10 @@
-export default function tempLate (alpha: mixed): mixed {
-  return alpha
+import {take} from "ramda"
+import shuffle from "@unction/shuffle"
+
+export default function sample (size: number): Function {
+  const takeSize = take(size)
+
+  return function sampleSize (list: string | Array<any>): string | Array<any> {
+    return takeSize(shuffle(list))
+  }
 }
