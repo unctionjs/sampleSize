@@ -3,7 +3,7 @@ import {test} from "tap"
 import {range} from "ramda"
 import {intersection} from "ramda"
 
-import sampleSize from "./"
+import sampleSize from "./index"
 
 test(({includes, end}) => {
   includes(intersection(sampleSize(1, range(1, 100)), range(1, 100)), [])
