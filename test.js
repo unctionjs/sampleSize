@@ -1,11 +1,37 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
 import {test} from "tap"
-import {range} from "ramda"
-import {intersection} from "ramda"
+
 
 import sampleSize from "./index"
 
 test(({includes, end}) => {
-  includes(intersection(sampleSize(1, range(1, 100)), range(1, 100)), [])
+  const value = sampleSize(2)(["a", "b"])
+
+  includes(
+    value,
+    ["a"]
+  )
+
+  includes(
+    value,
+    ["b"]
+  )
+
+  end()
+})
+
+test(({includes, end}) => {
+  const value = sampleSize(2)("ab")
+
+  includes(
+    value,
+    "a"
+  )
+
+  includes(
+    value,
+    "b"
+  )
+
   end()
 })

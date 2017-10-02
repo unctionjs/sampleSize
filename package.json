@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "@unction/shuffle": "2.3.0",
+    "@unction/takefirst": "1.4.0",
     "ramda": "0.24.1"
   },
   "nyc": {
