@@ -47,12 +47,12 @@
     "flow-bin": "0.51.1",
     "flow-typed": "2.1.5",
     "nyc": "11.1.0",
+    "ramda": "0.24.1",
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/shuffle": "2.3.0",
-    "@unction/takefirst": "1.4.0",
-    "ramda": "0.24.1"
+    "@unction/shuffle": "2.4.1",
+    "@unction/takefirst": "1.4.0"
   },
   "nyc": {
     "require": [
