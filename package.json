@@ -51,8 +51,8 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/shuffle": "2.29.0",
-    "@unction/takefirst": "1.30.0"
+    "@unction/shuffle": "2.30.0",
+    "@unction/takefirst": "1.31.0"
   },
   "nyc": {
     "require": [
