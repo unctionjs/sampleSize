@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> number -> (string | Array<any>) -> (string | any)
+> number => (string | Array<any>) => (string | any)
 
 Takes an Array or string and randomly picks *n* elements to return, but never the same one.
 
