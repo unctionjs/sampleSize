@@ -54,7 +54,7 @@
   },
   "dependencies": {
     "@unction/shuffle": "12.0.0",
-    "@unction/takefirst": "5.0.0"
+    "@unction/takefirst": "7.0.0"
   },
   "nyc": {
     "require": [
