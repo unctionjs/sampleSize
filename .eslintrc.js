@@ -2,8 +2,7 @@ module.exports = {
   parser: "babel-eslint",
   plugins: [
     "babel",
-    "jsx-a11y",
-    "promise",
+    "promise"
   ],
   env: {
     es6: true,
@@ -77,7 +76,6 @@ module.exports = {
     "id-match": "error",
     "indent": ["error", 2, {"SwitchCase": 1}],
     "init-declarations": "error",
-    "jsx-quotes": "error",
     "key-spacing": "error",
     "keyword-spacing": "error",
     "line-comment-position": "error",
