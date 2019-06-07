@@ -52,7 +52,7 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/shuffle": "13.1.0",
+    "@unction/shuffle": "13.2.0",
     "@unction/takefirst": "8.1.0"
   },
   "nyc": {
