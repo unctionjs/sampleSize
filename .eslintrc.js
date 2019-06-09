@@ -2,7 +2,7 @@ module.exports = {
   parser: "babel-eslint",
   plugins: [
     "babel",
-    "promise"
+    "promise",
   ],
   env: {
     es6: true,
