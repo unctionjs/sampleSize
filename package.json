@@ -53,8 +53,7 @@
   },
   "dependencies": {
     "@unction/shuffle": "13.6.0",
-    "@unction/takefirst": "8.6.0",
-    "core-js": "3.0.1"
+    "@unction/takefirst": "8.6.0"
   },
   "nyc": {
     "require": [
