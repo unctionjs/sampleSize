@@ -3,7 +3,7 @@ import {test} from "tap"
 import {equals} from "ramda"
 import {or} from "ramda"
 
-import sampleSize from "./index"
+import sampleSize from "./"
 
 test(({ok, end}) => {
   const value = sampleSize(2)(["a", "b"])
