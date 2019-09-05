@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> number => OrderedFunctorType => OrderedFunctorType
+> number => OrderedEnumerableType<A> => OrderedEnumerableType<A>
 
 Takes an Array or string and randomly picks *n* elements to return, but never the same one.
 
