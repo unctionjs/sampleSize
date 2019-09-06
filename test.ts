@@ -2,7 +2,7 @@
 import { equals } from "ramda";
 import {or} from "ramda"
 
-import sampleSize from "./index.ts"
+import sampleSize from "./index"
 
 test(() => {
   const value = sampleSize(2)(["a", "b"])
