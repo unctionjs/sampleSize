@@ -54,8 +54,8 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/shuffle": "13.8.1",
-    "@unction/takefirst": "8.9.0"
+    "@unction/shuffle": "13.10.0",
+    "@unction/takefirst": "8.10.0"
   },
   "files": [
     "index.ts",
