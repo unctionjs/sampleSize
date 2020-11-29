@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> number => OrderedEnumerableType<A> => OrderedEnumerableType<A>
+> number => OrderedArray<A> | Set<A> | RecordType<unknown, A> | string => OrderedArray<A> | Set<A> | RecordType<unknown, A> | string
 
 Takes an Array or string and randomly picks *n* elements to return, but never the same one.
 
